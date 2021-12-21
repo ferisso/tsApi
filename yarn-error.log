@@ -1,0 +1,61 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\friss\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add express-async-erros
+
+PATH: 
+  C:\Program Files\AdoptOpenJDK\jdk-14.0.2.12-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\php-7.4.11;C:\ProgramData\chocolatey\bin;C:\tools\php74;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\friss\AppData\Local\Microsoft\WindowsApps;C:\Users\friss\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\friss\AppData\Local\GitHubDesktop\bin;C:\Users\friss\AppData\Roaming\npm;C:\src\flutter;;C:\Users\friss\AppData\Local\Microsoft\WindowsApps
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  12.18.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/express-async-erros: Not found
+      at Request.params.callback [as _callback] (C:\Users\friss\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67029:18)
+      at Request.self.callback (C:\Users\friss\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (C:\Users\friss\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (C:\Users\friss\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1221:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "nlw",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "ts-node-dev src/server.ts",
+      "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@types/express": "^4.17.13",
+      "ts-node-dev": "^1.1.8",
+      "typescript": "^4.5.4"
+    },
+    "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.17.2",
+      "reflect-metadata": "^0.1.13",
+      "sqlite3": "^5.0.2",
+      "typeorm": "^0.2.41",
+      "uuid": "^8.3.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
