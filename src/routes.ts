@@ -15,7 +15,7 @@ import { ListTagController } from "./controllers/ListTagController";
 const router = Router();
 // Get
 const listUserController = new ListUserController()
-router.get("/users", isAuth, listUserController.handle)
+router.get("/users", isAuth, ensureAdmin, listUserController.handle)
 
 const listTagController = new ListTagController()
 router.get("/tags", isAuth, listTagController.handle)
